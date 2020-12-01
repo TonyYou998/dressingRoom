@@ -15,12 +15,14 @@ export default class HomeComponent extends Component {
               <CategoriesComponent />
               <ProductsComponents />
             </div>
+            <div className="d-flex justify-content-end">
+              <div className="">
+                <FooterComponent />
+              </div>
+            </div>
           </div>
           <div className="col-6">
             <ModelComponent />
-          </div>
-          <div>
-            <FooterComponent />
           </div>
         </div>
       </div>

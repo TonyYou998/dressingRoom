@@ -10,8 +10,6 @@ export class ModelComponent extends Component {
       body: "./images/allbody/bodynew.png",
       model: "./images/model/1000new.png",
 
-      bikinibottom: "./images/allbody/bikini_pantsnew.png",
-      bikinitop: "./images/allbody/bikini_branew.png",
       feet: "./images/shoes/shoes1.png",
       background: "./images/background/background1.jpg",
     };
@@ -48,12 +46,12 @@ export class ModelComponent extends Component {
           />
           <div
             className="bikinitop"
-            style={{ background: `url(${this.state.bikinitop})` }}
+            style={{ background: `url(${this.props.model.defaultTopClothes})` }}
           />
 
           <div
             className="bikinibottom"
-            style={{ background: `url(${this.state.bikinibottom})` }}
+            style={{ background: `url(${this.props.model.defaultBotClothes})` }}
           />
 
           <div
