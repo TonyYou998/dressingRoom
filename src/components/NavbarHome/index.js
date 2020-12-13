@@ -58,6 +58,16 @@ export default class NavbarHome extends Component {
                 hooks
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink
+                activeClassName="active"
+                className="nav-link"
+                to="materialpage"
+                materialpage
+              >
+                material page
+              </NavLink>
+            </li>
           </ul>
         </div>
       </nav>
